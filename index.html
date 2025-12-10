@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ГК Форте — Тепловая техника и кондиционирование</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div class="min-h-screen flex flex-col">
+    <header class="sticky top-0 z-20 bg-white/90 backdrop-blur border-b border-slate-200">
+      <div class="container mx-auto px-4 xl:px-8 py-4 flex items-center justify-between gap-8">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-[rgba(91,72,135,1)] to-indigo-500 flex items-center justify-center text-white font-semibold">
+            Ф
+          </div>
+          <div>
+            <div class="text-lg font-semibold">ГК Форте</div>
+            <div class="text-sm text-slate-500">Тепловая техника и климат</div>
+          </div>
+        </div>
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="#catalog" class="nav-link text-slate-600 hover:text-[rgba(91,72,135,1)] transition">Каталог</a>
+          <a href="#about" class="nav-link text-slate-600 hover:text-[rgba(91,72,135,1)] transition">О компании</a>
+          <a href="#contacts" class="nav-link text-slate-600 hover:text-[rgba(91,72,135,1)] transition">Контакты</a>
+        </nav>
+        <a href="#contacts" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgba(91,72,135,1)] text-white text-sm font-semibold shadow-md hover:-translate-y-0.5 transition-transform">
+          Связаться
+        </a>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('img/bg.png');"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-[rgba(91,72,135,0.75)] via-[rgba(91,72,135,0.5)] to-[rgba(91,72,135,0.6)]"></div>
+        <div class="container relative mx-auto px-4 xl:px-8 py-20 lg:py-32 flex flex-col items-center text-center gap-6 max-w-4xl">
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white drop-shadow-lg">
+            Тепловая техника и системы кондиционирования
+          </h1>
+          <p class="text-lg text-white/90 drop-shadow">
+            Комплексные решения для климата: от подбора оборудования до сопровождения проектов. Работает по всей России.
+          </p>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="#catalog" class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white text-[rgba(91,72,135,1)] font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all">
+              Перейти в каталог
+            </a>
+            <a href="#about" class="inline-flex items-center justify-center px-6 py-3 rounded-xl border-2 border-white text-white font-semibold hover:bg-white/10 backdrop-blur-sm transition-all">
+              О компании
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="py-14 lg:py-18">
+        <div class="container mx-auto px-4 xl:px-8">
+          <div class="bg-white rounded-3xl border border-slate-200 shadow-lg p-6 md:p-8 flex flex-col md:flex-row items-center gap-8">
+            <div class="flex items-center gap-4 flex-1">
+              <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-400 to-emerald-500 shadow-md flex items-center justify-center">
+                <span class="text-white text-xl font-semibold">X</span>
+              </div>
+              <div>
+                <div class="text-lg font-semibold">Скачать наш каталог</div>
+                <a href="#" class="text-[rgba(91,72,135,1)] font-medium hover:underline">Каталог товаров.xls</a>
+              </div>
+            </div>
+            <div class="hidden md:block w-px h-16 bg-slate-200"></div>
+            <div class="flex-1">
+              <div class="text-base font-semibold">Отдел продаж</div>
+              <div class="text-lg text-slate-800">+7 (915) 233-42-56</div>
+              <div class="text-slate-600">applc@bk.ru</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-14 lg:py-20 bg-gradient-to-b from-white to-slate-50">
+        <div class="container mx-auto px-4 xl:px-8 grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+          <div class="lg:col-span-4">
+            <p class="text-sm uppercase tracking-[0.12em] font-semibold text-[rgba(91,72,135,1)] mb-2">О нас</p>
+            <h2 class="text-3xl font-bold text-slate-900">Рост 40% в год</h2>
+          </div>
+          <div class="lg:col-span-8 space-y-4 text-lg text-slate-700 leading-relaxed">
+            <p>Наша компания демонстрирует постоянный рост продаж более чем на 40% в год. Такая положительная динамика объясняется тем, что с момента основания компания постоянно проводит анализ предпочтений покупателя, в зависимости от которого расширяет или обновляет линейку своей продукции.</p>
+            <p>Не забывает Forte Klima и о качестве — выбор поставщиков осуществляется только среди крупных компаний, которые производят продукцию по всем стандартам качества.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="py-14 lg:py-20 bg-white border-t border-slate-200">
+        <div class="container mx-auto px-4 xl:px-8">
+          <div class="rounded-3xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 shadow-sm p-8 lg:p-10">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 border-b border-slate-200 pb-6 mb-6">
+              <div>
+                <p class="text-xs uppercase tracking-[0.16em] font-semibold text-[rgba(91,72,135,1)] mb-2">Реквизиты</p>
+                <h2 class="text-3xl font-bold text-slate-900">ООО «АПП»</h2>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-slate-500">
+                <span class="w-2 h-2 rounded-full bg-[rgba(91,72,135,1)]"></span>
+                <span>Ближе к вам — как в футере</span>
+              </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6 text-slate-700 text-base leading-relaxed">
+              <div class="space-y-3">
+                <p><strong class="text-slate-900">Юридический адрес:</strong><br>127473, г. Москва, ул. Селезневская, д. 11а, стр. 2, ком. 61</p>
+                <p><strong class="text-slate-900">Телефон:</strong><br>8 (915) 203-34-46</p>
+                <p><strong class="text-slate-900">ИНН/КПП:</strong><br>7733766952 / 770701001</p>
+                <p><strong class="text-slate-900">ОГРН:</strong><br>1117746358432</p>
+              </div>
+              <div class="space-y-3">
+                <div>
+                  <div class="font-semibold text-slate-900">Банковские реквизиты</div>
+                  <p class="mt-1">Расчетный счет № 40701810501360000007 в АО Банк Инго</p>
+                  <p>Корреспондентский счет № 30101810845250000148, открытый в ГУ Банка России по Центральному федеральному округу</p>
+                  <p>БИК: 044525148</p>
+                </div>
+                <div class="rounded-2xl bg-white border border-slate-200 p-4 flex items-center gap-3 shadow-[0_10px_30px_-18px_rgba(91,72,135,0.4)]">
+                  <div class="w-10 h-10 rounded-full bg-[rgba(91,72,135,0.12)] flex items-center justify-center text-[rgba(91,72,135,1)] font-semibold">AP</div>
+                  <div class="text-sm text-slate-600">
+                    <div class="font-semibold text-slate-900">ООО «АПП»</div>
+                    <div>Надёжный партнёр по климату</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white py-6">
+      <div class="container mx-auto px-4 xl:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-600">
+        <span>© 2025  ООО "АПП"  Все права защищены.</span>
+        <div class="flex items-center gap-3 text-slate-500">
+          <span class="w-2 h-2 rounded-full bg-[rgba(91,72,135,1)]"></span>
+          <span>ГК Форте</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
